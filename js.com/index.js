@@ -1,8 +1,8 @@
-/*const pi = 3.14;
-let person = "naveen";
-let answer = "yes im in";
+function person(first,last,age,){
+    this.firstname = first;
+    this.lastanme = last;
+    this.age = age;
+}
+ const myfather = new person("jhon", "vae" , 15 );
 
-document.getElementById("demo").innerHTML= pi+  " "  +person +"<br>"+answer;*/
-
-let carname = "volvo", person = "jhon", price = 200;
-document.getElementById("demo").innerHTML = carname+ "<br> "+person+" <br>"+price;
+document.getElementById("demo").innerHTML =myfather.age;

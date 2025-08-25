@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <p id="jj"></p>
-
+        <p id="demo"></p>
         <script>
-            function myfunction(p1 ,p2){
-                return p1*p2
-            }
+            function myfunction(p1,p2) {
+                return p1*p2;
+        }
 
-        let result=myfunction(5,8);
+       let result= myfunction(2,5);
+       document.getElementById("demo").innerHTML = "the result is :" +result;
+        </script>
 
-        document.getElementById("jj").innerHTML = "the result is: "+result;        </script>
+       
     </body>
 </html>
