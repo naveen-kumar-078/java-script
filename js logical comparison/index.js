@@ -1,3 +1,3 @@
-let x = 5;
+let x = 8;
 let y = 5;
-alert (!(x==y))
+alert(!(x==y))

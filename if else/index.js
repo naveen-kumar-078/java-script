@@ -1,5 +1,16 @@
-if (new Date().getHours()<18) {
+let x = 10;
+let y = 20
 
- alert ("Good day !");
+if (x>2) {
+    alert("condition is trddwde")
+    
+}
 
+else if(y>5) {
+    alert("condtion is true")
+
+}
+
+else {
+    alert("conditon is false")
 }
