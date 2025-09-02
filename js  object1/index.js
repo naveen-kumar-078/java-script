@@ -22,11 +22,26 @@ alert(person.fullname())*/
 
 const person = {
     firstname : "nakul",
-    lastname  : "kuumar",
-    age:18
+    lastname  : "kuumar",    
+    age:18                     
 };
 let text = person.firstname+" "+person.lastname;
 alert(text)
+
+
+
+/*function person(firstname,lastname,age,eye) {
+    this.firstname = firstname;
+    this.lastname = lastname;
+    this.age  = age;
+    this.eye  = eye;
+    
+}
+
+const myfather = new person("ravi","kumar",50,"blue");
+
+alert("my brother name is " +myfather.firstname+" "+myfather.lastname)*/
+
 
 
 

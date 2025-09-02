@@ -1,11 +1,13 @@
-let pattern = "";
+let text ="";
 
-for (let i = 1;i <= 5;i++)
-{
-    for(let j=1; j<=5;j++)
+for(let i= 0;i < 5;i++){
+
+    for (let  j=0; j < 5; j++ )
     {
-        pattern+=i;
+        text+=i;
     }
-    pattern +="\n";
-    }
-    alert(pattern)
+        text+="\n";
+    
+}
+
+alert(text)
